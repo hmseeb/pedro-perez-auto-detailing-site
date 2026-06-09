@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Pedro Perez Auto Detailing – Professional auto detailing services. Exterior wash, interior cleaning, paint correction, ceramic coating and more. Get a quote today!" />
+  <meta name="keywords" content="auto detailing, car detailing, Pedro Perez, exterior wash, interior cleaning, paint correction, ceramic coating, wax polish" />
+  <meta property="og:title" content="Pedro Perez Auto Detailing" />
+  <meta property="og:description" content="Professional auto detailing services. Exterior wash, interior cleaning, paint correction, ceramic coating and more." />
+  <meta property="og:type" content="website" />
+  <title>Pedro Perez Auto Detailing | Professional Car Detailing Services</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-icon">&#9670;</span>
+        <span class="logo-text">Pedro Perez <em>Auto Detailing</em></span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="#contact" class="btn btn-primary nav-cta">Get a Quote</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <img
+        src="https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=1600&auto=format&fit=crop&q=80"
+        alt="Professional auto detailer polishing a sleek black car to a mirror shine"
+        class="hero-img"
+      />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="container hero-content">
+      <span class="hero-badge">Professional Auto Detailing</span>
+      <h1 class="hero-title">Pedro Perez<br /><span>Auto Detailing</span></h1>
+      <p class="hero-tagline">Your car deserves the best — we deliver showroom-quality results every time.</p>
+      <div class="hero-actions">
+        <a href="tel:+15551234567" class="btn btn-primary btn-lg">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.02 1.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92v2z"></path></svg>
+          Call Now
+        </a>
+        <a href="#contact" class="btn btn-outline btn-lg">Get a Free Quote</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <strong>500+</strong>
+          <span>Happy Clients</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <strong>10+</strong>
+          <span>Years Experience</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <strong>100%</strong>
+          <span>Satisfaction</span>
+        </div>
+      </div>
+    </div>
+    <a href="#services" class="hero-scroll" aria-label="Scroll to services">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+    </a>
+  </section>
+
+  <!-- ===== TRUST BAR ===== -->
+  <div class="trust-bar">
+    <div class="container trust-inner">
+      <div class="trust-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+        <span>Fully Insured</span>
+      </div>
+      <div class="trust-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+        <span>Satisfaction Guaranteed</span>
+      </div>
+      <div class="trust-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+        <span>On-Time Service</span>
+      </div>
+      <div class="trust-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"></path></svg>
+        <span>Eco-Friendly Products</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="section services" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">What We Offer</span>
+        <h2 class="section-title">Our Detailing Services</h2>
+        <p class="section-subtitle">From a basic wash to a full showroom detail, Pedro Perez Auto Detailing has a package for every vehicle and budget.</p>
+      </div>
+      <div class="services-grid">
+
+        <div class="service-card">
+          <div class="service-img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&auto=format&fit=crop&q=80"
+              alt="Exterior car wash and hand wax service showing gleaming vehicle finish"
+              loading="lazy"
+            />
+          </div>
+          <div class="service-body">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22V12m0 0l-4-4m4 4l4-4M4 6l2 2M18 6l-2 2M2 12h2m16 0h2"></path></svg>
+            </div>
+            <h3>Exterior Wash &amp; Detail</h3>
+            <p>Hand wash, clay bar treatment, hand wax, tire shine, and window cleaning for a spotless exterior that turns heads.</p>
+            <a href="#contact" class="service-link">Book Now &rarr;</a>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1545327850-c58a29c2b8c4?w=600&auto=format&fit=crop&q=80"
+              alt="Interior car detailing with vacuuming and deep cleaning of seats and dashboard"
+              loading="lazy"
+            />
+          </div>
+          <div class="service-body">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"></rect><path d="M3 9h18M9 21V9"></path></svg>
+            </div>
+            <h3>Interior Deep Clean</h3>
+            <p>Full vacuum, steam cleaning, leather conditioning, odor elimination, and dashboard detailing for a fresh cabin.</p>
+            <a href="#contact" class="service-link">Book Now &rarr;</a>
+          </div>
+        </div>
+
+        <div class="service-card featured-service">
+          <div class="service-badge-ribbon">Most Popular</div>
+          <div class="service-img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1600706432502-77a0e2e32790?w=600&auto=format&fit=crop&q=80"
+              alt="Full auto detailing package showing immaculate vehicle inside and out"
+              loading="lazy"
+            />
+          </div>
+          <div class="service-body">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+            </div>
+            <h3>Full Detail Package</h3>
+            <p>Our signature service combining complete exterior and interior detailing for a total vehicle transformation — inside and out.</p>
+            <a href="#contact" class="service-link">Book Now &rarr;</a>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1580273916550-e323be2ae537?w=600&auto=format&fit=crop&q=80"
+              alt="Paint correction service removing swirl marks and scratches from a car's paint surface"
+              loading="lazy"
+            />
+          </div>
+          <div class="service-body">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 8v4l3 3"></path></svg>
+            </div>
+            <h3>Paint Correction</h3>
+            <p>Multi-stage machine polishing to remove swirl marks, scratches, oxidation, and water spots — restoring your paint's depth.</p>
+            <a href="#contact" class="service-link">Book Now &rarr;</a>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?w=600&auto=format&fit=crop&q=80"
+              alt="Ceramic coating application providing long-lasting paint protection and hydrophobic finish"
+              loading="lazy"
+            />
+          </div>
+          <div class="service-body">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+            </div>
+            <h3>Ceramic Coating</h3>
+            <p>Professional-grade nano-ceramic coating that bonds to your paint, repels water and contaminants, and lasts years — not months.</p>
+            <a href="#contact" class="service-link">Book Now &rarr;</a>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&auto=format&fit=crop&q=80"
+              alt="Engine bay cleaning and degreasing service for a clean under-hood appearance"
+              loading="lazy"
+            />
+          </div>
+          <div class="service-body">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"></rect><path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2"></path></svg>
+            </div>
+            <h3>Engine Bay Cleaning</h3>
+            <p>Safe degreasing and detailing of the engine compartment so your car looks just as impressive under the hood as it does outside.</p>
+            <a href="#contact" class="service-link">Book Now &rarr;</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section about" id="about">
+    <div class="container about-container">
+      <div class="about-images">
+        <div class="about-img-main">
+          <img
+            src="https://images.unsplash.com/photo-1601362840469-51e4d8d58785?w=700&auto=format&fit=crop&q=80"
+            alt="Auto detailing professional applying wax to a vehicle with precision and care"
+            loading="lazy"
+          />
+        </div>
+        <div class="about-img-secondary">
+          <img
+            src="https://images.unsplash.com/photo-1553440569-bcc63803a83d?w=400&auto=format&fit=crop&q=80"
+            alt="Gleaming freshly detailed sports car showing the high-quality results of Pedro Perez Auto Detailing"
+            loading="lazy"
+          />
+        </div>
+        <div class="about-badge-card">
+          <strong>10+</strong>
+          <span>Years of Excellence</span>
+        </div>
+      </div>
+      <div class="about-content">
+        <span class="section-label">About Us</span>
+        <h2 class="section-title">Passion for Perfection,<br />One Car at a Time</h2>
+        <p>Pedro Perez Auto Detailing was founded on a simple belief: every vehicle deserves to look its absolute best. With over a decade of hands-on experience, Pedro and his team bring unmatched attention to detail, premium products, and genuine care to every job — no matter the make, model, or condition.</p>
+        <p>We use only professional-grade, eco-conscious products that are tough on dirt and grime but safe for your vehicle's surfaces, clear coat, and the environment. Whether you drive a daily commuter or a prized weekend cruiser, we treat it with the same respect and dedication.</p>
+        <ul class="about-features">
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            Certified and experienced detailing technicians
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            Professional-grade, eco-friendly products
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            Mobile detailing available — we come to you
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            100% satisfaction guarantee on every service
+          </li>
+        </ul>
+        <a href="#contact" class="btn btn-primary">Get Your Free Quote</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALLERY ===== -->
+  <section class="section gallery" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Our Work</span>
+        <h2 class="section-title">Before &amp; After Results</h2>
+        <p class="section-subtitle">See the transformation. These results speak for themselves.</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item gallery-item--wide">
+          <img
+            src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=900&auto=format&fit=crop&q=80"
+            alt="Luxury sedan fully detailed to a mirror-like finish after professional auto detailing"
+            loading="lazy"
+          />
+          <div class="gallery-overlay">
+            <span>Full Detail — Luxury Sedan</span>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img
+            src="https://images.unsplash.com/photo-1568844293986-8d0400bd4745?w=600&auto=format&fit=crop&q=80"
+            alt="SUV exterior wash and wax showing brilliant paint shine"
+            loading="lazy"
+          />
+          <div class="gallery-overlay">
+            <span>Exterior Wash &amp; Wax — SUV</span>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img
+            src="https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=600&auto=format&fit=crop&q=80"
+            alt="Sports car interior deep cleaned with spotless leather seats and dashboard"
+            loading="lazy"
+          />
+          <div class="gallery-overlay">
+            <span>Interior Deep Clean — Sports Car</span>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img
+            src="https://images.unsplash.com/photo-1590510696627-b29f7b93e3c3?w=600&auto=format&fit=crop&q=80"
+            alt="Black truck with ceramic coating showing water beading on the paint surface"
+            loading="lazy"
+          />
+          <div class="gallery-overlay">
+            <span>Ceramic Coating — Pickup Truck</span>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img
+            src="https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?w=600&auto=format&fit=crop&q=80"
+            alt="Classic car paint correction removing swirls and restoring deep gloss finish"
+            loading="lazy"
+          />
+          <div class="gallery-overlay">
+            <span>Paint Correction — Classic Car</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="section testimonials">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Customer Reviews</span>
+        <h2 class="section-title">What Our Clients Say</h2>
+      </div>
+      <div class="testimonials-grid">
+
+        <div class="testimonial-card">
+          <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p>"Pedro did an incredible job on my truck. It came out looking brand new — the paint correction removed every swirl mark I thought was permanent. Worth every penny!"</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">M</div>
+            <div>
+              <strong>Marcus R.</strong>
+              <span>Full Detail &amp; Paint Correction</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p>"I've tried many detailers and Pedro Perez is by far the best. The interior deep clean on my family SUV was phenomenal — smells fresh, looks spotless. Highly recommend!"</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">S</div>
+            <div>
+              <strong>Sarah L.</strong>
+              <span>Interior Deep Clean</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p>"Got the ceramic coating done on my new car and the results are amazing. Water just beads right off. Pedro was professional, on time, and super knowledgeable."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">J</div>
+            <div>
+              <strong>James T.</strong>
+              <span>Ceramic Coating</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section contact" id="contact">
+    <div class="container contact-container">
+      <div class="contact-info">
+        <span class="section-label">Get In Touch</span>
+        <h2 class="section-title">Ready for a Pristine Ride?</h2>
+        <p>Contact us today for a free quote. We'll work around your schedule to give your vehicle the care it deserves.</p>
+
+        <div class="contact-details">
+          <a href="tel:+15551234567" class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.02 1.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92v2z"></path></svg>
+            </div>
+            <div>
+              <strong>Call Us</strong>
+              <span>(555) 123-4567</span>
+            </div>
+          </a>
+          <a href="mailto:info@pedroperezcdetailing.com" class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            </div>
+            <div>
+              <strong>Email Us</strong>
+              <span>info@pedroperezcdetailing.com</span>
+            </div>
+          </a>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            </div>
+            <div>
+              <strong>Location</strong>
+              <span>Serving the local area &amp; surrounding communities</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+            </div>
+            <div>
+              <strong>Hours</strong>
+              <span>Mon–Sat: 8:00 AM – 6:00 PM</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-ctas">
+          <a href="tel:+15551234567" class="btn btn-primary btn-lg">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.02 1.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92v2z"></path></svg>
+            Call Now
+          </a>
+          <a href="mailto:info@pedroperezcdetailing.com" class="btn btn-outline btn-lg">Send Email</a>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contactForm" novalidate>
+        <h3>Request a Free Quote</h3>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="(555) 000-0000" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required />
+        </div>
+        <div class="form-group">
+          <label for="vehicle">Vehicle (Year, Make, Model)</label>
+          <input type="text" id="vehicle" name="vehicle" placeholder="e.g. 2022 Ford F-150" />
+        </div>
+        <div class="form-group">
+          <label for="service">Service Interested In</label>
+          <select id="service" name="service">
+            <option value="">— Select a service —</option>
+            <option value="exterior">Exterior Wash &amp; Detail</option>
+            <option value="interior">Interior Deep Clean</option>
+            <option value="full">Full Detail Package</option>
+            <option value="paint">Paint Correction</option>
+            <option value="ceramic">Ceramic Coating</option>
+            <option value="engine">Engine Bay Cleaning</option>
+            <option value="other">Other / Not Sure</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">Additional Notes</label>
+          <textarea id="message" name="message" rows="4" placeholder="Tell us about your vehicle or any specific concerns..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Submit Quote Request</button>
+        <div class="form-success" id="formSuccess" hidden>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+          Thanks! We'll be in touch shortly.
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <a href="#home" class="nav-logo">
+          <span class="logo-icon">&#9670;</span>
+          <span class="logo-text">Pedro Perez <em>Auto Detailing</em></span>
+        </a>
+        <p>Professional auto detailing services that bring out the best in every vehicle — delivered with care, precision, and passion.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-services">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#services">Exterior Wash &amp; Detail</a></li>
+          <li><a href="#services">Interior Deep Clean</a></li>
+          <li><a href="#services">Full Detail Package</a></li>
+          <li><a href="#services">Paint Correction</a></li>
+          <li><a href="#services">Ceramic Coating</a></li>
+          <li><a href="#services">Engine Bay Cleaning</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:+15551234567">(555) 123-4567</a></li>
+          <li><a href="mailto:info@pedroperezcdetailing.com">info@pedroperezcdetailing.com</a></li>
+          <li>Mon–Sat: 8:00 AM – 6:00 PM</li>
+        </ul>
+        <a href="#contact" class="btn btn-primary btn-sm footer-cta">Get a Quote</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; <span id="year"></span> Pedro Perez Auto Detailing. All rights reserved.</p>
+        <p>Built with care for your vehicle.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
